@@ -1,0 +1,6 @@
+@AgentPortalGateway_HostAddress = http://localhost:5185
+
+GET {{AgentPortalGateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
