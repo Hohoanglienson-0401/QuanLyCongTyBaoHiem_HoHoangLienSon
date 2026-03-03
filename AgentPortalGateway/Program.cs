@@ -1,5 +1,7 @@
-var builder = WebApplication.CreateBuilder(args);
+using MediatR;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddMediatR(typeof(Program));
 // Add services to the container.
 
 builder.Services.AddControllers();

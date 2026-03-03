@@ -15,6 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DocumentService.Api\DocumentService.Api.csproj" />
+    <ProjectReference Include="..\DocumentService\DocumentService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
