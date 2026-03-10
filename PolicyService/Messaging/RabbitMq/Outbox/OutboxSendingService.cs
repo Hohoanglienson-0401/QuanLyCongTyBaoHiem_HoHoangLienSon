@@ -34,8 +34,6 @@ public class OutboxSendingService : IHostedService
         timer?.Change(Timeout.Infinite, 0);
         return Task.CompletedTask;
     }
-
-
     private async void PushMessages(object state)
     {
         if (!await semaphore.WaitAsync(0))
