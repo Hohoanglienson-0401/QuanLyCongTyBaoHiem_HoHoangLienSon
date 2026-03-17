@@ -1,3 +1,5 @@
+using System;
+
 namespace ChatService
 {
     public class WeatherForecast

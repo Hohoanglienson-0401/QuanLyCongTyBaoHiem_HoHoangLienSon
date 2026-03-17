@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Steeltoe.Discovery.Client;
 
 namespace AuthService;
 
@@ -23,6 +24,7 @@ public class Program
 
         return WebHost.CreateDefaultBuilder(args)
             .UseConfiguration(config)
+            .AddDiscoveryClient()
             .UseStartup<Startup>();
     }
 }
