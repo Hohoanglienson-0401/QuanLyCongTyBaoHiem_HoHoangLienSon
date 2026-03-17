@@ -1,4 +1,25 @@
 <Solution>
+  <Project Path="../../../Downloads/KienTrucPhanMem/BlazorWasmClient/" Type="Website" DisplayName="BlazorWasmClient">
+    <BuildType Project="Debug" />
+    <Properties Name="WebsiteProperties">
+      <Property Name="Debug.AspNetCompiler.Debug" Value="&quot;True&quot;" />
+      <Property Name="Debug.AspNetCompiler.FixedNames" Value="&quot;false&quot;" />
+      <Property Name="Debug.AspNetCompiler.ForceOverwrite" Value="&quot;true&quot;" />
+      <Property Name="Debug.AspNetCompiler.PhysicalPath" Value="&quot;..\..\..\Downloads\KienTrucPhanMem\BlazorWasmClient\&quot;" />
+      <Property Name="Debug.AspNetCompiler.TargetPath" Value="&quot;PrecompiledWeb\localhost_61641\&quot;" />
+      <Property Name="Debug.AspNetCompiler.Updateable" Value="&quot;true&quot;" />
+      <Property Name="Debug.AspNetCompiler.VirtualPath" Value="&quot;/localhost_61641&quot;" />
+      <Property Name="Release.AspNetCompiler.Debug" Value="&quot;False&quot;" />
+      <Property Name="Release.AspNetCompiler.FixedNames" Value="&quot;false&quot;" />
+      <Property Name="Release.AspNetCompiler.ForceOverwrite" Value="&quot;true&quot;" />
+      <Property Name="Release.AspNetCompiler.PhysicalPath" Value="&quot;..\..\..\Downloads\KienTrucPhanMem\BlazorWasmClient\&quot;" />
+      <Property Name="Release.AspNetCompiler.TargetPath" Value="&quot;PrecompiledWeb\localhost_61641\&quot;" />
+      <Property Name="Release.AspNetCompiler.Updateable" Value="&quot;true&quot;" />
+      <Property Name="Release.AspNetCompiler.VirtualPath" Value="&quot;/localhost_61641&quot;" />
+      <Property Name="TargetFrameworkMoniker" Value="&quot;.NETFramework,Version%3Dv4.8.1&quot;" />
+      <Property Name="VWDPort" Value="&quot;61641&quot;" />
+    </Properties>
+  </Project>
   <Project Path="../../../Downloads/KienTrucPhanMem/eureka-server/" Type="Website" DisplayName="eureka-server">
     <BuildType Project="Debug" />
     <Properties Name="WebsiteProperties">
@@ -83,6 +104,7 @@
       <Property Name="VWDPort" Value="&quot;61207&quot;" />
     </Properties>
   </Project>
+  <Project Path="AgentPortalApiGateway/AgentPortalApiGateway.csproj" />
   <Project Path="AgentPortalGateway.Api/AgentPortalGateway.Api.csproj" />
   <Project Path="AgentPortalGateway.Test/AgentPortalGateway.Test.csproj" />
   <Project Path="AgentPortalGateway/AgentPortalGateway.csproj" />
@@ -92,6 +114,9 @@
   <Project Path="ChatService.Api/ChatService.Api.csproj" />
   <Project Path="ChatService.Test/ChatService.Test.csproj" />
   <Project Path="ChatService/ChatService.csproj" />
+  <Project Path="DashboardService.Api/DashboardService.Api/DashboardService.Api.csproj" />
+  <Project Path="DashboardService.Test/DashboardService.Test/DashboardService.Test.csproj" />
+  <Project Path="DashboardService/DashboardService/DashboardService.csproj" />
   <Project Path="DocumentService.Api/DocumentService.Api.csproj" />
   <Project Path="DocumentService.Test/DocumentService.Test.csproj" />
   <Project Path="DocumentService/DocumentService.csproj" />

@@ -1,3 +1,5 @@
+using System;
+
 namespace AuthService
 {
     public class WeatherForecast

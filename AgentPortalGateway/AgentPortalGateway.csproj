@@ -11,6 +11,9 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
+    <PackageReference Include="Ocelot" Version="23.3.3" />
+    <PackageReference Include="Ocelot.Cache.CacheManager" Version="23.3.3" />
+    <PackageReference Include="Ocelot.Provider.Eureka" Version="23.3.3" />
     <PackageReference Include="RabbitMQ.Client" Version="7.2.1" />
   </ItemGroup>
 
